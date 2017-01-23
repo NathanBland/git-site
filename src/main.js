@@ -4,8 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import Router from 'vue-router'
 import routes from './routes'
+const VueResource = require('vue-resource')
 /* eslint-disable no-new */
-
+Vue.use(VueResource)
 Vue.use(Router)
 
 const router = new Router({
