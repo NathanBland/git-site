@@ -2,9 +2,8 @@
   <article class="landing">
     <section>
       <h1>Welcome</h1>
-      <p>This site serves as a development blog, and also as a personal playground. If you see some odd things here from time to time, that's why.</p>
-      <p>Randomize the background?</p>
-      <button @click="randomize">Randomize</button> 
+      <p>Development blog, and personal playground. If you see some odd things here from time to time, that's why.</p>
+      <button @click="randomize">Change up the look</button> 
     </section>
   </article>
 </template>
@@ -18,7 +17,6 @@ export default {
     }
   },
   mounted () {
-    this.randomize()
   },
   methods: {
     randomize () {
@@ -48,7 +46,7 @@ export default {
   section
     border-radius: 5px
     padding: 1em
-    background-color: #cacaca
+    background-color: #f9f9f9
     margin-top: 1em
     box-shadow: 0px 0px 5px 0px grey
 </style>

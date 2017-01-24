@@ -15,6 +15,11 @@ export default [
     component: require('components/BlogListView')
   },
   {
+    path: '/article/:date/:title/:link',
+    name: 'article',
+    component: require('components/ArticleView')
+  },
+  {
     path: '*',
     redirect: '/landing'
   }

@@ -1,9 +1,9 @@
 <template>
   <nav class="menu">
     <ul>
-      <li><router-link :to="'home'">Home</router-link></li>
-      <li><router-link :to="'about-me'">About Me</router-link></li>
-      <li><router-link :to="'blog'">Developer Blog</router-link></li>
+      <li><router-link :to="'/home'">Home</router-link></li>
+      <li><router-link :to="'/about-me'">About Me</router-link></li>
+      <li><router-link :to="'/blog'">Developer Blog</router-link></li>
       <li><a href="https://github.com/NathanBland/" title="GitHub" target="_blank">GitHub</a></li>
       <li><a href="https://twitter.com/NathanABland" title="Twitter" target="_blank">Twitter</router-link></li>
     </ul>
@@ -40,4 +40,22 @@ nav
   border-bottom-color: white
   border-bottom-width: 5px
   border-bottom-style: solid
+@media (max-width: 600px)
+  nav
+    ul
+      display: block
+      .router-link-active
+        border-bottom-color: unset
+        border-bottom-width: unset
+        border-bottom-style: unset
+        box-shadow: 0px 0px 0px 2px white
+        padding: .5em
+    li
+      min-width: 50vw
+      padding-left: 1em
+      padding-right: 1em
+      padding-top: 1em
+      a 
+        width: 100%
+      
 </style>

@@ -22,5 +22,12 @@ export default {
   display: flex
   margin-left: auto
   margin-right: auto
+  z-index: 1
+  max-height: 89.5vh
+  overflow-y: auto
   flex-flow: column nowrap
+  
+@media (max-width: 600px)
+  .main-view
+    overflow-y: unset
 </style>

@@ -4,6 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import Router from 'vue-router'
 import routes from './routes'
+import 'highlight.js/styles/solarized-light.css'
 const VueResource = require('vue-resource')
 /* eslint-disable no-new */
 Vue.use(VueResource)
