@@ -40,7 +40,7 @@ export default {
   max-width: 760px
   border-radius: 5px
   padding: 1em
-  background-color: #cacaca
+  background-color: rgba(249, 249, 249, 0.75);
   margin-left: auto
   margin-right: auto
   margin-top: 1em

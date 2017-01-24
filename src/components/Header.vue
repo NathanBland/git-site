@@ -31,13 +31,14 @@ export default {
   flex-flow: row wrap
   align-items: baseline
   margin: 0
-  background-color: #124B6C
+  background-color: rgba(156, 156, 156, 0.25)
   color: white
   z-index: 2
   padding-left: 1em
   h1 a
     text-decoration: none
     color: white
+    text-shadow: 0px 0px 5px black
 img 
   padding: .5em
   height: 2em

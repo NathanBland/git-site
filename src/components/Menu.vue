@@ -26,6 +26,7 @@ nav
   flex: 1
   ul
     width: 75%
+    text-shadow: 0px 0px 5px black
     display: flex
     justify-content: center
     text-decoration: none

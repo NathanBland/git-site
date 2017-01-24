@@ -22,7 +22,7 @@ export default {
   },
   methods: {
     randomize () {
-      let myele = document.querySelector('main')
+      let myele = document.querySelector('body')
       let mySize = {
         width: window.getComputedStyle(myele).width,
         height: window.getComputedStyle(myele).height
@@ -60,7 +60,8 @@ p,a,li,span
   display: flex
   flex-flow: column nowrap
 button
-  background-color: #124B6C
+  // background-color: #124B6C
+  background-color: rgba(1, 1, 1, 0.75)
   color: white
   padding: .25em
   margin: .25em

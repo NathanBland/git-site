@@ -20,7 +20,7 @@ export default {
   },
   methods: {
     randomize () {
-      let myele = document.querySelector('main')
+      let myele = document.querySelector('body')
       let mySize = {
         width: window.getComputedStyle(myele).width,
         height: window.getComputedStyle(myele).height
@@ -46,7 +46,7 @@ export default {
   section
     border-radius: 5px
     padding: 1em
-    background-color: #f9f9f9
+    background-color: rgba(249, 249, 249, 0.75)
     margin-top: 1em
     box-shadow: 0px 0px 5px 0px grey
 </style>
